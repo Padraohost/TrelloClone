@@ -6,8 +6,8 @@ import { setStatusBarBackgroundColor } from 'expo-status-bar';
 
 export default function TaskList(){
     const [tasks, setTasks] = useState([
-        { description: 'Primeira tarefa'},
-        { description: 'Segunda tarefa'},
+        { id: '123', description: 'Primeira tarefa'},
+        { id: '67', description: 'Segunda tarefa'},
     ]);
 
     const [newTask, setNewTask] = useState('');
